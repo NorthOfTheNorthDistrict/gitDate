@@ -1,0 +1,245 @@
+/**index.wxss**/
+
+view{
+  display: flex;
+}
+.all{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-grow: 1;
+  background-color: rgb(224, 224, 224);
+  width: 100%;
+  height: 100%;
+  padding-top: 140rpx;
+}
+/* 第一块 */
+.v1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity:inherit;
+  width: 94%;
+  border-radius: 20rpx;
+  height: 280rpx;
+  /* border-style: solid; */
+  /* border-color: lightcoral; */
+  color:white;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+}
+.head_img{
+  width: 100rpx;
+  height: 100rpx; 
+  border: solid;
+  border-color:inherit;
+  border-radius: 50%;
+  margin-right:20rpx;
+}
+.head_msg{
+  flex-direction: column;
+}
+.msg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.msg_img{
+  width: 70rpx;
+  height: 70rpx; 
+}
+.msg_font{
+  font-size: 30rpx;
+}
+.msg_view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150rpx;
+}
+/* 第二块 */
+.v2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 94%;
+  border-radius: 20rpx;
+  background-color:white;
+  height: 170rpx;
+  margin: 15rpx 0;
+}
+.v2_view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.v2_img{
+  width: 70rpx;
+  height: 70rpx; 
+  border-radius: 50%;
+}
+.v2_font{
+  font-size: 30rpx;
+}
+/* 第三块 */
+.v3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 94%;
+  border-radius: 20rpx;
+  background-color:white;
+  height: 180rpx;
+  margin: 15rpx 0;
+}
+.v345_title{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.v3_msg{
+  width: 94%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.v3_msg_view{
+  display: flex;
+  flex-direction: column;
+}
+.v3_msg_view_font{
+  font-size: 30rpx;
+}
+/* 第四块 */
+.v4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 94%;
+  border-radius: 20rpx;
+  background-color:white;
+  height: 450rpx;
+  margin: 15rpx 0;
+}
+.v4_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 94%;
+}
+.v4_1_2{
+  font-size: 30rpx;
+  color: rgb(126, 126, 126);
+}
+.v4_2{
+  width: 94%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.v4_2_view{
+  flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  justify-content: space-evenly;
+  border-radius: 15rpx;
+  /* 这里应该有个背景图 */
+  width: 180rpx;
+  height: 80rpx;
+  padding: 20rpx 0 20rpx 20rpx;
+}
+.v4_2_title{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.v4_2_font{
+  font-size: 30rpx;
+  color: rgb(126, 126, 126);
+}
+.v4_3{
+  border-radius: 15rpx;
+  width: 94%;
+  height: 200rpx;
+  background-color: rgb(214, 214, 214);
+}
+.v4_3_swiper{
+  width: 100%;
+  height: 200rpx;
+}
+.v4_3_img{
+  height: 200rpx;
+  width: 100%;
+}
+/* 第五块 */
+.v5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 94%;
+  border-radius: 20rpx;
+  background-color:white;
+  height: 400rpx;
+  margin: 15rpx 0;
+}
+.v5_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 94%;
+}
+.v5_1_2{
+  font-size: 30rpx;
+  color: rgb(126, 126, 126);
+}
+.v5_2{
+  width: 94%;
+  height: 300rpx;
+}
+.v5_2_swiper{
+  width: 100%;
+  height: 100%;
+}
+.v5_2_swiper-item{
+  width: 100%;
+}
+.v5_2_swiper-item_img{
+  width: 70rpx;
+  height: 70rpx; 
+}
+.v5_2_swiper-item_font{
+  font-size: 30rpx;
+}
+.v5_2_swiper-item_view1{
+  width: 100%;
+  height: 85%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.v5_2_swiper-item_view2{
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.v5_2_swiper-item_view3{
+  width: 120rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+/* 第六块 */
+.v6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30rpx;
+  color: gray;
+  margin: 10rpx 0;
+}

@@ -1,0 +1,254 @@
+<!--index.wxml-->
+<view class="all">
+  <!-- 个人信息 -->
+  <view class="v1">
+    <!-- 头像部分 -->
+    <view class="head"> 
+      <!-- 头像 -->
+      <view>
+        <image src="../image/icon_API.png" class="head_img"></image>
+      </view>
+      <!-- 名字以及徽章 -->
+      <view class="head_msg">
+        <view style="font-size: 40rpx;">芋圆波波奶茶</view>
+        <view>
+          <view style="font-size: 35rpx;">我的家园  我的工会</view>
+        </view>
+      </view>
+    </view>
+    <!-- 个人应用部分 -->
+    <view class="msg">
+      <view class="msg_view">
+        <image src="../image/icon_API.png" class="msg_img"></image>
+        <view class="msg_font">我的视频</view>
+      </view>
+      <view class="msg_view">
+        <image src="../image/icon_API.png" class="msg_img"></image>
+        <view class="msg_font">我的收藏</view> 
+      </view>
+      <view class="msg_view">
+        <image src="../image/icon_API.png" class="msg_img"></image>
+        <view class="msg_font">视频圈</view>
+      </view>
+      <view class="msg_view">
+        <image src="../image/icon_API.png" class="msg_img"></image>
+        <view class="msg_font">付费记录</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 订单管理 -->
+  <view class="v2">
+    <view class="v2_view">
+      <image src="../image/icon_API.png" class="v2_img"></image>
+      <view class="v2_font">全部订单</view>
+    </view>
+    <view class="v2_view">
+      :
+    </view>
+    <view class="v2_view">
+      <image src="../image/icon_API.png" class="v2_img"></image>
+      <view class="v2_font">待付款</view>
+    </view>
+    <view class="v2_view">
+      <image src="../image/icon_API.png" class="v2_img"></image>
+      <view class="v2_font">待发货</view>
+    </view>
+    <view class="v2_view">
+      <image src="../image/icon_API.png" class="v2_img"></image>
+      <view class="v2_font">待收货</view>
+    </view>
+    <view class="v2_view">
+      <image src="../image/icon_API.png" class="v2_img"></image>
+      <view class="v2_font">售后</view>
+    </view>
+  </view>
+
+  <!-- 我的钱包 -->
+  <view class="v3">
+    <view class="v345_title" style="width: 94%;">我的钱包</view>
+    <view class="v3_msg">
+      <view class="v3_msg_view">
+        <view>2.7w</view>
+        <view class="v3_msg_view_font">赚积分</view>
+      </view>
+      <view>|</view>
+      <view class="v3_msg_view">
+        <view>20</view>
+        <view class="v3_msg_view_font">优惠卷</view>
+      </view>
+      <view>|</view>
+      <view class="v3_msg_view">
+        <view>2437</view>
+        <view class="v3_msg_view_font">余额补贴</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 福利 -->
+  <view class="v4">
+    <view class="v4_1">
+      <view class="v345_title">福利活动</view>
+      <view class="v4_1_2">查看全部></view>
+    </view>
+    <view class="v4_2">
+      <view class="v4_2_view">
+        <view class="v4_2_title">积分商城</view>
+        <view class="v4_2_font">兑好物></view>
+      </view>
+      <view class="v4_2_view">
+        <view class="v4_2_title">步数换好物</view>
+        <view class="v4_2_font">免费换></view>
+      </view>
+      <view class="v4_2_view">
+        <view class="v4_2_title">邀好友赚分</view>
+        <view class="v4_2_font">去邀请></view>
+      </view>
+    </view>
+    <view class="v4_3">
+      <swiper class="v4_3_swiper" indicator-dots="true" indicator-color="#fff" indicator-active-color="#000" autoplay="true" interval="3000">
+        <swiper-item><image src="../image/icon_API_HL.png" class="v4_3_img"></image></swiper-item>
+        <swiper-item><image src="../image/icon_component.png" class="v4_3_img"></image></swiper-item>
+        <swiper-item><image src="../image/icon_component_HL.png" class="v4_3_img"></image></swiper-item>
+      </swiper>
+    </view>
+  </view>
+  
+  <!-- 工具 -->
+  <view class="v5">
+    <view class="v4_1">
+      <view class="v345_title">我的工具</view>
+      <view class="v4_1_2">全部工具></view>
+    </view>
+    <view class="v5_2">
+      <swiper class="v5_2_swiper" indicator-dots="true" indicator-color="rgb(224, 224, 224)" indicator-active-color="green">
+        <swiper-item class="v5_2_swiper-item">
+          <view class="v5_2_swiper-item_view1">
+            <view class=".v5_2_swiper-item_view2">
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">工具一号</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">我的收藏</view> 
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">视频圈</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">付费记录</view>
+              </view>
+            </view>
+            <view class=".v5_2_swiper-item_view2">
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">四个字</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">我的收藏</view> 
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">视频圈</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">付费记录</view>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item class="v5_2_swiper-item">
+          <view class="v5_2_swiper-item_view1">
+            <view class=".v5_2_swiper-item_view2">
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">工具一号</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">我的收藏</view> 
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">视频圈</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">付费记录</view>
+              </view>
+            </view>
+            <view class=".v5_2_swiper-item_view2">
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">四个字</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">我的收藏</view> 
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">视频圈</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">付费记录</view>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item class="v5_2_swiper-item">
+          <view class="v5_2_swiper-item_view1">
+            <view class=".v5_2_swiper-item_view2">
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">工具一号</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">我的收藏</view> 
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">视频圈</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">付费记录</view>
+              </view>
+            </view>
+            <view class=".v5_2_swiper-item_view2">
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">四个字</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">我的收藏</view> 
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">视频圈</view>
+              </view>
+              <view class="v5_2_swiper-item_view3">
+                <image src="../image/icon_API.png" class="v5_2_swiper-item_img"></image>
+                <view class="v5_2_swiper-item_font">付费记录</view>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  
+  <!-- 版号 -->
+  <view class="v6">1.6.3.1</view>
+  
+  <!-- 底层菜单 -->
+  
+</view>
